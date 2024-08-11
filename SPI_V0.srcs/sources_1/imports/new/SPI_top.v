@@ -22,7 +22,8 @@
 
 module SPI_top#(
     parameter D_WIDTH = 32,
-    parameter TX_SHIFT_FMT = 8'd32
+    parameter FMT_SHIFT = 8'd32,
+    parameter RX_MAX = 32'hFFFF_FFFF
 )
 (
     input clk,
@@ -51,7 +52,7 @@ module SPI_top#(
 
     wire [(D_WIDTH-1):0] wire_tx_reg, wire_rx_reg;
 
-    wire [(D_WIDTH-1):0] wire_tx_reg_shifted;
+
 
     wire wire_cpha, wire_cpol;
  
@@ -86,6 +87,9 @@ module SPI_top#(
     .spi_clk(spi_clk)
     );
 
+    wire [(D_WIDTH-1):0] wire_rx_reg_padded;
+    assign wire_rx_reg_padded = wire_rx_reg & (~(RX_MAX << wire_fmt));
+
     reg_spi spi_register_file(
     .clk(clk),
     .reset_n(reset_n),
@@ -94,7 +98,7 @@ module SPI_top#(
     .enable(~wire_busy),
     .data_in(data_in),
     .tx_reg(wire_tx_reg),
-    .rx_reg(wire_rx_reg),
+    .rx_reg(wire_rx_reg_padded),
     .cs_n(),
     .cpha(wire_cpha),
     .cpol(wire_cpol),
@@ -123,9 +127,10 @@ module SPI_top#(
     .count_out()
     );
 
-    assign wire_tx_reg_shifted = (wire_tx_reg << (TX_SHIFT_FMT - wire_fmt));
+    wire [(D_WIDTH-1):0] wire_tx_reg_shifted;
+    assign wire_tx_reg_shifted = (wire_tx_reg << (FMT_SHIFT - wire_fmt));
 
-    PISO tx_shift_reg(
+    PISO FMT_SHIFT_reg(
     .p_data(wire_tx_reg_shifted),
     .clk(clk),
     .reset_n(reset_n),

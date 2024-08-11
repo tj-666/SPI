@@ -22,7 +22,6 @@
 
 module reg_spi #(
     parameter D_WIDTH = 32,
-    parameter TX_SHIFT = 8'd32,
     parameter A_DEPTH = 5
 )
 (

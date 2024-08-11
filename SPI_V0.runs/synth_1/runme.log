@@ -26,20 +26,20 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 16840
+INFO: [Synth 8-7075] Helper process launched with PID 12028
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1318.746 ; gain = 446.512
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1316.746 ; gain = 444.688
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-11241] undeclared symbol 'wire_tx_en', assumed default net type 'wire' [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SPI_top.v:63]
-INFO: [Synth 8-11241] undeclared symbol 'wire_rx_en', assumed default net type 'wire' [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SPI_top.v:64]
-INFO: [Synth 8-11241] undeclared symbol 'wire_spi_tick_en', assumed default net type 'wire' [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SPI_top.v:65]
-INFO: [Synth 8-11241] undeclared symbol 'wire_bit_count_tick_en', assumed default net type 'wire' [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SPI_top.v:66]
-INFO: [Synth 8-11241] undeclared symbol 'wire_load_tx', assumed default net type 'wire' [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SPI_top.v:68]
-INFO: [Synth 8-11241] undeclared symbol 'wire_load_rx', assumed default net type 'wire' [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SPI_top.v:69]
-INFO: [Synth 8-11241] undeclared symbol 'wire_load_spi_tick', assumed default net type 'wire' [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SPI_top.v:70]
-INFO: [Synth 8-11241] undeclared symbol 'wire_load_bit_count_tick', assumed default net type 'wire' [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SPI_top.v:71]
-INFO: [Synth 8-11241] undeclared symbol 'wire_spi_tick', assumed default net type 'wire' [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SPI_top.v:80]
-INFO: [Synth 8-11241] undeclared symbol 'wire_bit_count_tick', assumed default net type 'wire' [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SPI_top.v:81]
+INFO: [Synth 8-11241] undeclared symbol 'wire_tx_en', assumed default net type 'wire' [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SPI_top.v:64]
+INFO: [Synth 8-11241] undeclared symbol 'wire_rx_en', assumed default net type 'wire' [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SPI_top.v:65]
+INFO: [Synth 8-11241] undeclared symbol 'wire_spi_tick_en', assumed default net type 'wire' [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SPI_top.v:66]
+INFO: [Synth 8-11241] undeclared symbol 'wire_bit_count_tick_en', assumed default net type 'wire' [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SPI_top.v:67]
+INFO: [Synth 8-11241] undeclared symbol 'wire_load_tx', assumed default net type 'wire' [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SPI_top.v:69]
+INFO: [Synth 8-11241] undeclared symbol 'wire_load_rx', assumed default net type 'wire' [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SPI_top.v:70]
+INFO: [Synth 8-11241] undeclared symbol 'wire_load_spi_tick', assumed default net type 'wire' [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SPI_top.v:71]
+INFO: [Synth 8-11241] undeclared symbol 'wire_load_bit_count_tick', assumed default net type 'wire' [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SPI_top.v:72]
+INFO: [Synth 8-11241] undeclared symbol 'wire_spi_tick', assumed default net type 'wire' [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SPI_top.v:81]
+INFO: [Synth 8-11241] undeclared symbol 'wire_bit_count_tick', assumed default net type 'wire' [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SPI_top.v:82]
 INFO: [Synth 8-6157] synthesizing module 'SPI_top' [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SPI_top.v:23]
 INFO: [Synth 8-6157] synthesizing module 'spi_controller' [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/spi_controller.v:23]
 INFO: [Synth 8-6155] done synthesizing module 'spi_controller' (0#1) [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/spi_controller.v:23]
@@ -53,18 +53,18 @@ INFO: [Synth 8-6157] synthesizing module 'SIPO' [D:/DigitalSystem/SPI_V0/SPI_V0.
 INFO: [Synth 8-6155] done synthesizing module 'SIPO' (0#1) [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SIPO.v:23]
 INFO: [Synth 8-6155] done synthesizing module 'SPI_top' (0#1) [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sources_1/imports/new/SPI_top.v:23]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1426.344 ; gain = 554.109
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1426.062 ; gain = 554.004
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1426.344 ; gain = 554.109
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1426.062 ; gain = 554.004
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1426.344 ; gain = 554.109
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1426.062 ; gain = 554.004
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1426.344 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1426.062 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -75,29 +75,29 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/SPI_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1544.078 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1534.895 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 The system cannot find the path specified.
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1544.078 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1534.895 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1544.078 ; gain = 671.844
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1534.895 ; gain = 662.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1544.078 ; gain = 671.844
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1534.895 ; gain = 662.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1544.078 ; gain = 671.844
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1534.895 ; gain = 662.836
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'p_state_reg' in module 'spi_controller'
 ---------------------------------------------------------------------------------------------------
@@ -109,7 +109,7 @@ INFO: [Synth 8-802] inferred FSM for state register 'p_state_reg' in module 'spi
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'p_state_reg' using encoding 'one-hot' in module 'spi_controller'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1544.078 ; gain = 671.844
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1534.895 ; gain = 662.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -146,25 +146,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1544.078 ; gain = 671.844
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1534.895 ; gain = 662.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1544.078 ; gain = 671.844
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1534.895 ; gain = 662.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1544.078 ; gain = 671.844
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1534.895 ; gain = 662.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1544.078 ; gain = 671.844
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1534.895 ; gain = 662.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -182,37 +182,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1544.078 ; gain = 671.844
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1534.895 ; gain = 662.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1544.078 ; gain = 671.844
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1534.895 ; gain = 662.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1544.078 ; gain = 671.844
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1534.895 ; gain = 662.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1544.078 ; gain = 671.844
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1534.895 ; gain = 662.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1544.078 ; gain = 671.844
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1534.895 ; gain = 662.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1544.078 ; gain = 671.844
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1534.895 ; gain = 662.836
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -231,39 +231,39 @@ Report Cell Usage:
 |1     |BUFG   |     1|
 |2     |CARRY4 |     2|
 |3     |LUT1   |     1|
-|4     |LUT2   |     6|
-|5     |LUT3   |     8|
-|6     |LUT4   |    34|
-|7     |LUT5   |    18|
-|8     |LUT6   |   155|
+|4     |LUT2   |     8|
+|5     |LUT3   |    11|
+|6     |LUT4   |    37|
+|7     |LUT5   |    23|
+|8     |LUT6   |   181|
 |9     |FDCE   |   313|
 |10    |FDPE   |     1|
 |11    |IBUF   |    40|
 |12    |OBUF   |    36|
 +------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1544.078 ; gain = 671.844
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1534.895 ; gain = 662.836
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 1544.078 ; gain = 554.109
-Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1544.078 ; gain = 671.844
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 1534.895 ; gain = 554.004
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1534.895 ; gain = 662.836
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1544.078 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1534.895 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1544.078 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1534.895 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 The system cannot find the path specified.
-Synth Design complete | Checksum: 22b0ccd2
+Synth Design complete | Checksum: 7744339e
 INFO: [Common 17-83] Releasing license: Synthesis
 45 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:36 . Memory (MB): peak = 1544.078 ; gain = 1064.777
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1544.078 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1534.895 ; gain = 1055.516
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1534.895 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'D:/DigitalSystem/SPI_V0/SPI_V0.runs/synth_1/SPI_top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file SPI_top_utilization_synth.rpt -pb SPI_top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sat Aug 10 23:23:19 2024...
+INFO: [Common 17-206] Exiting Vivado at Sun Aug 11 08:40:44 2024...

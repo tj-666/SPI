@@ -1,0 +1,6 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+D:/DigitalSystem/SPI_V0/SPI_V0.sim/sim_1/impl/timing/xsim/loop_back_tb_time_impl.v,1723362278,verilog,,D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sim_1/imports/new/loop_back_tb.v,,Counter;Counter_0;PISO;SIPO;SPI_top;glbl;reg_spi;spi_controller,,,,,,,,
+D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sim_1/imports/new/loop_back_tb.v,1723362196,verilog,,,,loop_back_tb,,,,,,,,

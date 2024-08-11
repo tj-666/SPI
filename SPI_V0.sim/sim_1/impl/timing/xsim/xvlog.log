@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DigitalSystem/SPI_V0/SPI_V0.sim/sim_1/impl/timing/xsim/loop_back_tb_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Counter
+INFO: [VRFC 10-311] analyzing module Counter_0
+INFO: [VRFC 10-311] analyzing module PISO
+INFO: [VRFC 10-311] analyzing module SIPO
+INFO: [VRFC 10-311] analyzing module SPI_top
+INFO: [VRFC 10-311] analyzing module reg_spi
+INFO: [VRFC 10-311] analyzing module spi_controller
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sim_1/imports/new/loop_back_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module loop_back_tb
+WARNING: [VRFC 10-8497] literal value 'h32 truncated to fit in 3 bits [D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sim_1/imports/new/loop_back_tb.v:125]

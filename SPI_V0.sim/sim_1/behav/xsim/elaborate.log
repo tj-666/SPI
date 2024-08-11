@@ -1,7 +1,7 @@
 Vivado Simulator v2023.2
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: D:/software/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SPI_top_tb_behav xil_defaultlib.SPI_top_tb xil_defaultlib.glbl -log elaborate.log 
+Running: D:/software/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot loop_back_tb_behav xil_defaultlib.loop_back_tb xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
@@ -15,6 +15,6 @@ Compiling module xil_defaultlib.Counter
 Compiling module xil_defaultlib.PISO
 Compiling module xil_defaultlib.SIPO
 Compiling module xil_defaultlib.SPI_top
-Compiling module xil_defaultlib.SPI_top_tb
+Compiling module xil_defaultlib.loop_back_tb
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot SPI_top_tb_behav
+Built simulation snapshot loop_back_tb_behav

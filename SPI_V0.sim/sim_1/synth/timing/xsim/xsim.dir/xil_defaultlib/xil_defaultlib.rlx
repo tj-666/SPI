@@ -2,5 +2,6 @@
 2020.2
 Oct 13 2023
 20:47:58
-D:/DigitalSystem/SPI_V0/SPI_V0.sim/sim_1/synth/timing/xsim/SPI_top_tb_time_synth.v,1723328626,verilog,,D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sim_1/imports/new/SPI_top_tb.v,,Counter;Counter_0;PISO;SIPO;SPI_top;glbl;reg_spi;spi_controller,,,,,,,,
+D:/DigitalSystem/SPI_V0/SPI_V0.sim/sim_1/synth/timing/xsim/loop_back_tb_time_synth.v,1723362236,verilog,,D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sim_1/imports/new/loop_back_tb.v,,Counter;Counter_0;PISO;SIPO;SPI_top;glbl;reg_spi;spi_controller,,,,,,,,
 D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sim_1/imports/new/SPI_top_tb.v,1723247382,verilog,,,,SPI_top_tb,,,,,,,,
+D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sim_1/imports/new/loop_back_tb.v,1723362196,verilog,,,,loop_back_tb,,,,,,,,
