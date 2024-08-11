@@ -1,0 +1,4 @@
+Running: xsim.dir/SPI_top_tb_time_synth/xsimk.exe -simmode gui -wdb SPI_top_tb_time_synth.wdb -simrunnum 0 -socket 50057
+Design successfully loaded
+Design Loading Memory Usage: 16476 KB (Peak: 16476 KB)
+Design Loading CPU Usage: 30 ms

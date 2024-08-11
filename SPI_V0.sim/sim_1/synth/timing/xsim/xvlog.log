@@ -1,0 +1,11 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DigitalSystem/SPI_V0/SPI_V0.sim/sim_1/synth/timing/xsim/SPI_top_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Counter
+INFO: [VRFC 10-311] analyzing module Counter_0
+INFO: [VRFC 10-311] analyzing module PISO
+INFO: [VRFC 10-311] analyzing module SIPO
+INFO: [VRFC 10-311] analyzing module SPI_top
+INFO: [VRFC 10-311] analyzing module reg_spi
+INFO: [VRFC 10-311] analyzing module spi_controller
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DigitalSystem/SPI_V0/SPI_V0.srcs/sim_1/imports/new/SPI_top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPI_top_tb

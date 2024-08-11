@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Aug 10 23:22:36 2024
+# Process ID: 15808
+# Current directory: D:/DigitalSystem/SPI_V0/SPI_V0.runs/synth_1
+# Command line: vivado.exe -log SPI_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SPI_top.tcl
+# Log file: D:/DigitalSystem/SPI_V0/SPI_V0.runs/synth_1/SPI_top.vds
+# Journal file: D:/DigitalSystem/SPI_V0/SPI_V0.runs/synth_1\vivado.jou
+# Running On: KING, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 16541 MB
+#-----------------------------------------------------------
+source SPI_top.tcl -notrace

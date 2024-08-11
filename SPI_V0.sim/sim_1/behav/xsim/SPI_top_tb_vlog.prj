@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../SPI_V0.srcs/sources_1/imports/new/Counter.v" \
+"../../../../SPI_V0.srcs/sources_1/imports/new/PISO.v" \
+"../../../../SPI_V0.srcs/sources_1/imports/new/SIPO.v" \
+"../../../../SPI_V0.srcs/sources_1/imports/new/SPI_top.v" \
+"../../../../SPI_V0.srcs/sources_1/imports/new/reg_spi.v" \
+"../../../../SPI_V0.srcs/sources_1/imports/new/spi_controller.v" \
+"../../../../SPI_V0.srcs/sim_1/imports/new/SPI_top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

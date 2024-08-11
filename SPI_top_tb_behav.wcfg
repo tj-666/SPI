@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SPI_top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SPI_top_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="14.740001 us"></ZoomEndTime>
+      <Cursor1Time time="10.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="185"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wave_markers>
+      <marker time="450000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/SPI_top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_top_tb/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_top_tb/rw_n" type="logic">
+      <obj_property name="ElementShortName">rw_n</obj_property>
+      <obj_property name="ObjectShortName">rw_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_top_tb/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_top_tb/addr" type="array">
+      <obj_property name="ElementShortName">addr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_top_tb/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_top_tb/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_top_tb/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_top_tb/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_top_tb/spi_clk" type="logic">
+      <obj_property name="ElementShortName">spi_clk</obj_property>
+      <obj_property name="ObjectShortName">spi_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_top_tb/cs_n" type="logic">
+      <obj_property name="ElementShortName">cs_n</obj_property>
+      <obj_property name="ObjectShortName">cs_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_top_tb/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="group37" type="group">
+      <obj_property name="label">TX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/SPI_top_tb/SPI_top_inst/tx_shift_reg/p_data" type="array">
+         <obj_property name="ElementShortName">p_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">p_data[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SPI_top_tb/SPI_top_inst/tx_shift_reg/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SPI_top_tb/SPI_top_inst/tx_shift_reg/reset_n" type="logic">
+         <obj_property name="ElementShortName">reset_n</obj_property>
+         <obj_property name="ObjectShortName">reset_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SPI_top_tb/SPI_top_inst/tx_shift_reg/load" type="logic">
+         <obj_property name="ElementShortName">load</obj_property>
+         <obj_property name="ObjectShortName">load</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SPI_top_tb/SPI_top_inst/tx_shift_reg/enable" type="logic">
+         <obj_property name="ElementShortName">enable</obj_property>
+         <obj_property name="ObjectShortName">enable</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SPI_top_tb/SPI_top_inst/tx_shift_reg/s_data" type="logic">
+         <obj_property name="ElementShortName">s_data</obj_property>
+         <obj_property name="ObjectShortName">s_data</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SPI_top_tb/SPI_top_inst/tx_shift_reg/n_shift" type="array">
+         <obj_property name="ElementShortName">n_shift[7:0]</obj_property>
+         <obj_property name="ObjectShortName">n_shift[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SPI_top_tb/SPI_top_inst/tx_shift_reg/p_shift" type="array">
+         <obj_property name="ElementShortName">p_shift[7:0]</obj_property>
+         <obj_property name="ObjectShortName">p_shift[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group92" type="group">
+      <obj_property name="label">Controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/SPI_top_tb/SPI_top_inst/control_and_clkgen/p_state" type="array">
+         <obj_property name="ElementShortName">p_state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">p_state[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SPI_top_tb/SPI_top_inst/control_and_clkgen/load_tx" type="logic">
+         <obj_property name="ElementShortName">load_tx</obj_property>
+         <obj_property name="ObjectShortName">load_tx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SPI_top_tb/SPI_top_inst/control_and_clkgen/load_rx" type="logic">
+         <obj_property name="ElementShortName">load_rx</obj_property>
+         <obj_property name="ObjectShortName">load_rx</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SPI_top_tb/SPI_top_inst/control_and_clkgen/S_IDLE" type="array">
+         <obj_property name="ElementShortName">S_IDLE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_IDLE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SPI_top_tb/SPI_top_inst/control_and_clkgen/S_SAMPLE" type="array">
+         <obj_property name="ElementShortName">S_SAMPLE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_SAMPLE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SPI_top_tb/SPI_top_inst/control_and_clkgen/S_DRIVE" type="array">
+         <obj_property name="ElementShortName">S_DRIVE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_DRIVE[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SPI_top_tb/SPI_top_inst/wire_bit_count_tick" type="logic">
+         <obj_property name="ElementShortName">wire_bit_count_tick</obj_property>
+         <obj_property name="ObjectShortName">wire_bit_count_tick</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SPI_top_tb/SPI_top_inst/bit_count_tick/count_out" type="array">
+         <obj_property name="ElementShortName">count_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">count_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SPI_top_tb/SPI_top_inst/wire_spi_tick" type="logic">
+         <obj_property name="ElementShortName">wire_spi_tick</obj_property>
+         <obj_property name="ObjectShortName">wire_spi_tick</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SPI_top_tb/SPI_top_inst/spi_tick/count_out" type="array">
+         <obj_property name="ElementShortName">count_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">count_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/SPI_top_tb/SPI_top_inst/spi_register_file/spi_reg_file" type="array">
+         <obj_property name="ElementShortName">spi_reg_file[4:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">spi_reg_file[4:0][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/SPI_top_tb/SPI_top_inst/spi_register_file/spi_reg_file" type="array">
+      <obj_property name="ElementShortName">spi_reg_file[4:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_reg_file[4:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_top_tb/SPI_top_inst/spi_register_file/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_top_tb/SPI_top_inst/spi_register_file/fmt" type="array">
+      <obj_property name="ElementShortName">fmt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fmt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_top_tb/SPI_top_inst/TX_SHIFT_FMT" type="array">
+      <obj_property name="ElementShortName">TX_SHIFT_FMT[7:0]</obj_property>
+      <obj_property name="ObjectShortName">TX_SHIFT_FMT[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SPI_top_tb/SPI_top_inst/wire_tx_reg_shifted" type="array">
+      <obj_property name="ElementShortName">wire_tx_reg_shifted[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wire_tx_reg_shifted[31:0]</obj_property>
+   </wvobject>
+</wave_config>

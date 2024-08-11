@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"SPI_top_tb_time_synth.v" \
+"../../../../../SPI_V0.srcs/sim_1/imports/new/SPI_top_tb.v" \
+
+# Do not sort compile order
+nosort
