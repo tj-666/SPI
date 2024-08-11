@@ -9,4 +9,9 @@
 ####           3.Functionality unafected from exit condition removal of S_DRIVE->S_IDLE
 ####           4.Residual data from RX register is successfully removed before loading to register file.
 ####
+
+# WAVEFORM SIMULATION RESULT #
+
+![image](https://github.com/user-attachments/assets/f9a6c2ce-05b4-4842-8178-1ed2ff8baaef)
+
 # END OF SPIV0.2 #
